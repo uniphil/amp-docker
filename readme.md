@@ -24,16 +24,8 @@ Run
 ---
 
 1. Copy your database dump into this repo as `dump.pgsql`
-2. Run ['./run.sh /path/to/amp/checkout'](run.sh)
-3. Hit up [http://localhost:8080](localhost:8080)
-
-
-Heads up
---------
-
-- The database is reset each time the container is run. It can be persisted without too much effort, just has not yet been implemented.
-- postgres, monetdb, and tomcat are all running together in one container, with no attempt to constrain any of their resource usage. YMMV depending on how much RAM is available on your system.
-- hot-reloading the java stuff is not there yet.
+2. Run [`./run.sh /path/to/amp/checkout`](run.sh)
+3. Hit up [localhost:8080](http://localhost:8080)
 
 
 Notes
@@ -41,3 +33,11 @@ Notes
 
 - tomcat logs are available in the `logs/` subdirectory of this repo.
 - tomcat manager app is enabled: [http://localhost:8080/manager](/manager/html) user `tomcat` password `tomcat`.
+
+
+Heads up
+--------
+
+- The database is reset each time the container is run. It can be persisted, open a ticket :)
+- postgres, monetdb, and tomcat are all running together in one container, with no attempt to constrain any of their resource usage. YMMV depending on how much RAM is available on your system.
+- hot-reloading the java stuff is not there yet.
