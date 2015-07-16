@@ -19,15 +19,15 @@ Setup
 -----
 
 1. Clone this repository somewhere on your system
-2. Run [`./build.sh`](build.sh). Get coffee. Maybe lunch. This takes a while.
+2. Copy your database dump into this repo as `dump.pgsql`
+3. Run [`./build.sh`](build.sh). Get coffee. Maybe lunch. This takes a while.
 
 
 Run
 ---
 
-1. Copy your database dump into this repo as `dump.pgsql`
-2. Run [`./run.sh /path/to/amp/checkout`](run.sh)
-3. Hit up [localhost:8080](http://localhost:8080)
+1. Run [`./run.sh /path/to/amp/checkout`](run.sh)
+2. Hit up [localhost:8080](http://localhost:8080)
 
 
 Notes
