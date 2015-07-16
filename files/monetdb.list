@@ -1,0 +1,2 @@
+deb http://dev.monetdb.org/downloads/deb/ trusty monetdb
+deb-src http://dev.monetdb.org/downloads/deb/ trusty monetdb
