@@ -3,6 +3,8 @@ AMP on Docker
 
 Run a local development copy of AMP in a Docker container with minimal fuss.
 
+![Screenshot of an AMP dev setup](screenshot.png)
+
 
 Prerequisites
 -------------
